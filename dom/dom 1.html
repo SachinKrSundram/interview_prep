@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="root">Hello world</h1>
+    
+    <div>
+    <p id="font" class="blue-white">JavaScript Setting Style Demo!</p>
+    </div>
+  </body>
+
+  <script>
+  
+  document.getElementById("root").addEventListener("mouseover", function() {
+    document.getElementById("root").style.backgroundColor = "red";
+  });
+  document.getElementById("root").addEventListener("mouseout", function() {
+    document.getElementById("root").style.backgroundColor = "white";
+  });
+  
+</script>
+<style>
+  .blue-white{
+    background-color: aqua;
+    font-size: 30px;
+  }
+  .blue-white:hover{
+    background-color: white;
+    font-size: 50px;
+  }
+</style>
+
+</html>
+    

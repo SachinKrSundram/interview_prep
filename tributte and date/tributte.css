@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/fe/5f/67/fe5f677b1627009c4b3e1c1c31dedf71.png);
+    width: 850px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style: outset;
+    border-width: 30px;
+    border-color: rgb(223, 253, 243);
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+h1{
+    color: rgb(4, 112, 76);
+    font-family: serif;
+    font-size: 80px;
+    font-style: italic;
+    margin-left: 25px;
+    }
+h2{
+    color: rgb(16, 138, 97);
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    
+}
+p{
+    margin-left: 40px;
+}
+li{
+    margin-left: 20px;
+}
+#a{
+
+    width: 200px;
+    height: 250px;
+    margin-right: 25px;
+    
+}
+
+#b{
+    width: 600px;
+}
+
+input{
+    background: transparent;
+
+}

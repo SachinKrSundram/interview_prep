@@ -1,0 +1,55 @@
+body{
+ background-image: url(https://s3.r29static.com/bin/entry/a4c/960xbm,70/1581666/image.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 800px;
+ size: 980px;
+ border-style: outset;
+ border-radius: 5px;
+ border-width: 50px;
+ margin: 0%;
+ height: 1150px;
+ width: 870px;
+ border-color: rgb(255, 244, 244);
+ padding: 0%;
+}
+
+#a{
+    background-color: rgb(136, 110, 26);
+    padding: 0px;
+    font-family: serif, fantasy;
+    font-style: italic;
+    width: 600px;
+    height: 50px;
+    color: rgb(116, 5, 5);
+    border-color: rgb(247, 220, 220);
+    border-radius: 30px;
+    border-width: 0px;
+    border-style: inset;
+    margin-left: 50px;
+       
+}
+#b{
+    width: 750px;
+    height: 500px;
+    opacity: 100%;
+    margin-left: 0px;
+    
+}
+#c{
+    color: rgb(124, 7, 7);
+    width: 100px;
+    height: 150px;
+    border-color: rgb(250, 249, 236);
+    border-style: inset;
+    border-radius: 30px;
+    border-width: 40px;
+    margin-left: 20px;
+    }
+
+input, textarea, select{
+    background: transparent;
+    color: rgb(124, 7, 7);
+    margin: 1px;
+}
+

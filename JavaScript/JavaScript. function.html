@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>java function</title>
+    
+  </head>
+  <body>
+    <h3 id="demo"></h3>
+    <script>
+      function numFinder(num, find) {
+    var i = 0;
+   for(element of num){
+   if (find == element) {
+res = `Index Position is ${num.indexOf(element)}`;
+   i++;
+    }
+      }
+    if(i==0){
+        var res = "-1 (Didn't find the value)";
+    }
+   return res;
+}
+
+let num = [15, 20, 1, 30, 10, 22, 85];
+  let find = 1;
+  let result = numFinder(num, find);
+
+  document.getElementById("demo").innerHTML = result;
+
+console.log(result)
+    
+    </script>
+  </body>
+</html>

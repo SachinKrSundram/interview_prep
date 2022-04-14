@@ -1,0 +1,4 @@
+I have done in two way.
+
+1. return for revision because of not work in replit but vs code runing without error.(promises.html)
+2.new way only in replit code vs code have not support js file to attach.(replit link)

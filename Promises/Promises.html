@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<h2>JavaScript Promise</h2>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+function myDisplayer1(some) {
+  document.getElementById("demo1").innerHTML = some;
+}
+
+
+let myPromise1 = new Promise(function(myResolve, myReject) {
+  setTimeout(()=>{
+  let x = 0;
+
+  if (x == 0) {
+    myResolve(x);
+  } else {
+    myReject("Boo!");
+  }
+}, 2000);
+});
+myPromise1.then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);},
+  );
+
+let myPromise = new Promise(function(myResolve, myReject) {
+  setTimeout(()=>{
+  let x = 0;
+
+  if (x == 1) {
+    myResolve(x);
+  } else {
+    myReject("Boo!");
+  }
+}, 2000);
+});
+
+myPromise.then(
+  function(value) {myDisplayer1(value);},
+  function(error) {myDisplayer1(error);},
+  );
+
+  function myDisplayer2(some) {
+  document.getElementById("demo2").innerHTML = some;
+}
+
+let myPromise2 = new Promise(function(myResolve, myReject) {
+  setTimeout(()=>{
+  let x = 0;
+
+  if (x == 0) {
+    myResolve(x);
+  } else {
+    myReject("Boo!");
+  }
+}, 2000);
+});
+myPromise2.then(
+  function(value) {myDisplayer2("True");},
+  function(error) {myDisplayer2("False");},
+  );
+
+</script>
+
+</body>
+</html>

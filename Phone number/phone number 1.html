@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function createPhoneNumber(arr) {
+    return `(${arr.slice(0, 3).join('')}) ${arr.slice(3, 6).join('')}-${arr.slice(6).join('')}`;
+}
+console.log(createPhoneNumber([7,6,7,8,1,5,8,3,4,0]))
+console.log(createPhoneNumber([9,1,2,2,5,0,7,3,4,9]))
+    </script>
+    
+</body>
+</html>

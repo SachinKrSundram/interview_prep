@@ -1,0 +1,104 @@
+#grad {
+    height: 100px;
+    width: 50%;
+    background-image: linear-gradient(to bottom right, rgb(102, 167, 53), rgb(234, 250, 4));
+    padding: 20px;
+    margin-top: 10px;
+    color: rebeccapurple
+       
+    
+}
+
+#grad1 {
+    height: 100px;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(102, 167, 53), rgb(234, 250, 4));
+    padding: 20px;
+    margin-top: 10px;
+    color: rebeccapurple
+}
+
+
+#grad2 {
+    height: 100px;
+    width: 50%;
+    background-image: linear-gradient(to left, rgba(102, 167, 53), rgb(234, 250, 4));
+    padding: 20px;
+    margin-top: 10px;
+    color: rebeccapurple
+}
+
+#grad3 {
+    height: 200px;
+    width: 50%;
+    background-color: yellowgreen;
+    background-image: linear-gradient(yellow, rgb(233, 10, 166), rgb(165, 250, 8));
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#grad4 {
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+    background-image: repeating-linear-gradient(greenyellow, red 20%, yellow 25%);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#grad5 {
+    height: 100px;
+    width: 50%;
+    background-color:yellow;
+    background-image: Radial-gradient(hotpink, rgb(132, 192, 41), rgb(253, 5, 5));
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#grad6 {
+    height: 250px;
+    width: 300px;
+    background-color: yellow;
+    background-image: repeating-Radial-gradient(rgb(255, 60, 0), yellow 10%,greenyellow 20%);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#grad7 {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    background-image: Radial-gradient(closest-side at 60% 55%, red,yellow, greenyellow);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#grad8 {
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    background-image: conic-gradient( black, green, red, yellow, blue, white);
+    border-radius: 50%;
+
+}
+
+#grad9 {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    background-image: conic-gradient(yellow 0deg, yellow 90deg, rgb(226, 178, 88) 90deg,  rgb(226, 178, 88) 180deg, greenyellow 180deg, greenyellow 270deg, rgb(230, 8, 230) 270deg);
+    border-radius: 50%;
+    margin: 2%;
+}
+
+h1{
+    color: brown;
+}
+
+div{
+    border-style: groove;
+    margin-top: 5%;
+    border-color: aquamarine;
+    padding: 0%;
+    
+}
