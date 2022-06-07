@@ -9,7 +9,7 @@ giving its url and position */
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url("../../../Submitted%20files/Sachin%20Kumar%20%20Sundram/Music-App-with-Flexbox%20(Group%20Project)/music.jpg");
+    background-image: url("music.jpg");
     
     /* Image used: */
     background-size: cover;
